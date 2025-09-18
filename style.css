@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1976d2;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+.navbar h1 {
+  margin: 0;
+  font-size: 28px;
+}
+.navbar p {
+  margin: 5px 0 10px;
+  font-size: 16px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+section h2 {
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 15px;
+}
+section p {
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.skill {
+  background: #1976d2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+.skill:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
